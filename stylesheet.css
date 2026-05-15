@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+body {
+    font-family: 'Pirata One', system-ui, sans-serif;
+
+    background-color: rgb(255, 50, 203);
+    background-image: url("images/Background.png");
+    
+    background-size: 360px 740px;
+
+    /* 
+    margin-right: 20%;
+    margin-left: 20%;
+    
+    border-width: 30px;
+    border-style: double;
+    border-color: rgb(154, 0, 255);
+    padding-left: 90px;
+    padding-right: 90px;
+    */
+}
+
+/*h1 {
+    text-align: center;
+    
+    
+    border-bottom-width: 20px;
+    border-bottom-style: ridge;
+    border-bottom-color: rgb(172, 252, 129);
+    
+}*/
+
+img[src="images/Msi_if_cover.jpg"] {
+    border-color: rgb(231, 63, 189);
+    border-width: 15px;
+    border-style: inset;
+}
+
+img[src="images/jimmy.png"] {
+    margin-right: 130px;
+}
+
+
+
+#header {
+    background-color: rgb(172, 252, 129);
+    text-align: center;
+    border-width: 20px;
+    border-style: ridge;
+    border-radius: 0px;
+}
+
+#list {
+    margin-left: 50px;
+    color: rgb(156, 0, 235);
+}
+
+#navlinks {
+    text-align: center;
+    color:black;
+    background-color: rgb(172, 252, 129);
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 10px;
+    border-style: solid;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(172, 252, 129);
+    padding: 20px;
+    background-position: bottom;
+}
